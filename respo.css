@@ -1,0 +1,179 @@
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    #menuToggle {
+        left: -15px;
+        margin-left: 35px;
+    }
+    .searchBox:hover>.searchInput {
+        width: 80px;
+        padding: 0 6px;
+    }
+
+    .banner-text h1 {
+        font-size: 2em;
+        padding-top: 80px;
+    }
+
+    .banner-text span {
+        font-size: 16px;
+    }
+
+    #left {
+        font-size: small;
+    }
+
+    #right {
+        font-size: small;
+    }
+
+    .wwd-img-1 img {
+        margin-top: 0vh;
+    }
+
+    .wwd-containe h2 {
+        padding-top: 10px;
+        font-size: 30px;
+    }
+
+    .wwd-containe p {
+        padding-top: 30px;
+    }
+
+    .case-image {
+        padding: 0;
+    }
+    .cs-text h1{
+        font-size: 20px;
+    }
+    .lunch-style-text h1 {
+        font-size: 2.5em;
+    }
+
+    .lunch-style-text span {
+        font-size: 15px;
+    }
+
+    .lunch-style-bg-blue {
+        margin-left: 25px;
+    }
+
+    .lunch-style-text {
+        padding: 100px 50px;
+    }
+
+    .testimonials-text h1 {
+        font-size: 3em;
+    }
+
+    .testimonials-text p {
+        font-size: 16px;
+    }
+    .about-text h1 {
+        font-size: 3.5em;
+    }
+    
+    .about-text p {
+        padding: 0;
+    }
+
+    .about-section h1 {
+        font-size: 2em;
+    }
+
+    .projec-section h1 {
+        font-size: 2em;
+    }
+
+    .projec-section p {
+        font-size: 16px;
+    }
+    .about-section{
+        padding-left: 10%;
+    }
+    .projec-section{
+        padding-left: 10%;
+    }
+    .input-line{
+        margin-left: 10%;
+    }
+    #sumbit{
+        margin-left: 10%;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media screen and (min-device-width: 768px) and (max-device-width: 992px) {
+    #menuToggle {
+        left: -70px;
+        margin-left: 50px;
+    }
+
+    .banner-text h1 {
+        font-size: 3em;
+    }
+
+    .banner-text span {
+        font-size: 18px;
+    }
+
+    #left {
+        font-size: small;
+    }
+
+    #right {
+        font-size: small;
+    }
+
+    .wwd-containe h2 {
+        font-size: 23px;
+    }
+
+    .wwd-containe p {
+        font-size: 15px;
+    }
+
+    .wwd-img-1 img {
+        margin-top: 30vh;
+    }
+
+    .case-image {
+        padding: 0;
+    }
+
+    .lunch-style-text {
+        padding: 100px 50px;
+    }
+
+    .lunch-style-text h1 {
+        font-size: 2.5em;
+    }
+
+    .lunch-style-text span {
+        font-size: 15px;
+    }
+
+    .about-text h1 {
+        font-size: 3em;
+    }
+
+    .about-section h1 {
+        font-size: 2em;
+    }
+
+    .projec-section h1 {
+        font-size: 2em;
+    }
+
+    .projec-section p {
+        font-size: 16px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
